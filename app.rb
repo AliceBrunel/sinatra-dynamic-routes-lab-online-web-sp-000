@@ -31,7 +31,7 @@ class App < Sinatra::Base
       @num1 + @num2 
     when "subtract"
       @num1 + @num2
-    when "add"
+    when "multiply "
       @num1 + @num2
     when "add"
       @num1 + @num2
