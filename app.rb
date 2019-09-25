@@ -22,7 +22,9 @@ class App < Sinatra::Base
     "#{@phrase}."
   end
   
-  get 
+  get '/:operation/:number1/:number2' do 
+    
+  end
   
   
 end
